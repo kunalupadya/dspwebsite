@@ -29,7 +29,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Delta Sigma Pi</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -37,13 +37,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Leadership</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#signup">Careers</a>
           </li>
         </ul>
       </div>
@@ -55,7 +58,7 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">We out here.</h2>
         <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
       </div>
     </div>
@@ -66,13 +69,64 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">What is Delta Sigma Pi?</h2>
+          <p class="text-white-50">Delta Sigma Pi is a dope organization with dope people.</p>
         </div>
       </div>
-      <img src="{% static 'main/img/ipad.png' %}" class="img-fluid" alt="">
+      <div class="row">
+          <h5 class="text-white mb-4">Frequently Asked Questions</h5>
+      </div>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Why did you join DSP?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                  Answer
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Does DSP only take Econ majors?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  Answer
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How much of a time committment is Delta Sigma Pi?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                  Answer
+              </div>
+            </div>
+          </div>
+        </div>
+        {#These breaks are currently here for aesthethic purposes, but you will probably also need them as a buffer before the pillars#}
+        <br>
+        <br>
+
     </div>
+
   </section>
 
   <!-- Projects Section -->
