@@ -363,10 +363,11 @@ footer {
 
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
+    font-size: 22px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 
@@ -421,7 +422,7 @@ circle-img {
 
 .img__overlay {
   background-color: rgba(46,204,113,0.4);
-  background: linear-gradient(65deg, rgba(46,204,113,0.4), rgba(243,156,18,0.4));
-  color: #fafafa;
+  background: linear-gradient(65deg, rgba(46,204,113,0.55), rgba(243,156,18,0.55));
+  color: #ffffff;
   font-size: 24px;
 }
