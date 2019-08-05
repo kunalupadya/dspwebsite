@@ -371,13 +371,13 @@ footer {
   }
 }
 
-circle-img {
+.circle-img {
   border-radius: 43%;
 }
 
 .my-a-img {
   border-radius: 50%;
-  border: thick groove lightblue;
+  border: thick groove #7b7b7b;
   display: block;
   justify-content: center;
   overflow: hidden;
@@ -386,6 +386,16 @@ circle-img {
 
 .my-a-img my-a-img {
   /*height: 100%;*/
+}
+
+.exec-text{
+  border: thick groove #7b7b7b;
+  display: block;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  padding: 5%;
+  font-size: 14px;
 }
 
 /*.img__overlay {*/
