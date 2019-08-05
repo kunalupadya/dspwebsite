@@ -4582,6 +4582,7 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+    background: #ebebeb;
 }
 
 .card-title {
@@ -4606,9 +4607,10 @@ input[type="button"].btn-block {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 0rem 0rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  /*background-color: rgba(0, 0, 0, 0.03);*/
+    background: #b7b7b7;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 

@@ -39,6 +39,13 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $("#accordionExample").on("hide.bs.collapse show.bs.collapse", e => {
+  $(e.target)
+    .prev()
+    .find("i:last-child")
+    .toggleClass("fa-minus fa-plus");
+});
+
   //Magnific popup calls
     $('.popup-gallery').magnificPopup({
     delegate: 'a',
