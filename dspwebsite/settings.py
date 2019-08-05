@@ -26,7 +26,7 @@ SECRET_KEY = 'xarz@-t1pqyt)$x3t^=7sfi8$#q!d60!0zk)du=(##z%y8(yau'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gentle-fortress-57854.herokuapp.com']
+ALLOWED_HOSTS = ['gentle-fortress-57854.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
