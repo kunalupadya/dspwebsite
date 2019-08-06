@@ -29,6 +29,7 @@ DEBUG = False
 DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = ['dspwebsite.herokuapp.com',
+                 'www.dspduke.com',
                  'dspduke.com',
                  '127.0.0.1']
 
