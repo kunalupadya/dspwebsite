@@ -1,1 +1,1 @@
-web: gunicorn dspwebsite.wsgi --log-file --keep-alive 5 --log-level debug
+web: gunicorn dspwebsite.wsgi --keep-alive 5 --log-level debug
