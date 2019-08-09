@@ -391,6 +391,7 @@ footer {
 .exec-text{
   border: thick groove #7b7b7b;
   display: block;
+  text-align: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
