@@ -361,12 +361,22 @@ footer {
   outline: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 22px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1299px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 90%;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 80%;
     font-weight: 500;
   }
 }
