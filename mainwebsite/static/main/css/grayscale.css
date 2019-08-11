@@ -230,7 +230,9 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 1rem 0 0;
+  /*margin-top: -50px;*/
+  margin-bottom: -50px;
 }
 
 .contact-section .card {
