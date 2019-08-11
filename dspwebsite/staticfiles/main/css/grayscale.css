@@ -230,7 +230,9 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 1rem 0 0;
+  /*margin-top: -50px;*/
+  margin-bottom: -50px;
 }
 
 .contact-section .card {
@@ -257,16 +259,18 @@
 
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /*height: 6rem;*/
+  /*width: 6rem;*/
+  /*background: rgba(255, 255, 255, 0.1);*/
+  /*border-radius: 100%;*/
+  /*line-height: 6rem;*/
+  /*color: rgba(255, 255, 255, 0.3);*/
+  color: #64A19D
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+   color: #3C6360;
 }
 
 .contact-section .social a:active {
@@ -361,12 +365,22 @@ footer {
   outline: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 22px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 1299px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 90%;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 80%;
     font-weight: 500;
   }
 }
