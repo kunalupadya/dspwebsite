@@ -257,16 +257,18 @@
 
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /*height: 6rem;*/
+  /*width: 6rem;*/
+  /*background: rgba(255, 255, 255, 0.1);*/
+  /*border-radius: 100%;*/
+  /*line-height: 6rem;*/
+  /*color: rgba(255, 255, 255, 0.3);*/
+  color: #64A19D
 }
 
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  /*color: rgba(255, 255, 255, 0.5);*/
+   color: #3C6360;
 }
 
 .contact-section .social a:active {
