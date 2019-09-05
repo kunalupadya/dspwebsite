@@ -1,6 +1,6 @@
 # dspwebsite
 
-The code for www.dspduke.com
+The code for www.dspduke.com. Made using Django, Bootstrap, HTML, CSS, and Javascript
 
 Key files:
 mainwebsite/templates/main/index.html, 
